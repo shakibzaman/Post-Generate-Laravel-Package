@@ -1,0 +1,26 @@
+{
+    "name": "shakibzaman/post",
+    "description": "Generate Posts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shakibzaman",
+            "email": "zaman.shakib@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shakib\\Post\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShakibZaman\\Post\\PostServiceProvider"
+            ]
+        }
+    }
+}
