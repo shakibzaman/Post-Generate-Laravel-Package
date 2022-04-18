@@ -1,6 +1,4 @@
 <?php
-
-namespace ShakibZaman\Post\database\seeds;
 use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
 use ShakibZaman\Post\Model\Post;
@@ -18,7 +16,7 @@ class PostSeeder extends Seeder
         {
             Post::create([
                 'title'=> Str::random(10),
-                'description'=>Str::random(40),
+                'description'=>Str::random(140),
             ]);
         }
     }

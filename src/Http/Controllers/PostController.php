@@ -9,7 +9,11 @@ class PostController extends Controller
 {
     public function getPosts()
     {
+<<<<<<< HEAD
         $posts=Post::all();
+=======
+        $posts=Post::paginate(15);
+>>>>>>>  Add | Blade design
         return view("Post::post.index",compact('posts'));
     }
 }
