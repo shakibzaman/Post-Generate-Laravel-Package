@@ -20,4 +20,3 @@
 
 6# Check Package data "yourDomainUrl/post"
 
->>>>>>>  Add | Blade design
