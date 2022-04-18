@@ -1,6 +1,4 @@
-# Post-Generate-Package
-<<<<<<< HEAD
-=======
+
 # Post-Generate-Package
 
 1# Add Bellows Code into Project composer.json file->
